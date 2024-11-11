@@ -67,5 +67,5 @@ $ echo $HOME/.cargo/
 
 - 既然下载慢，那就使用[国内的注册服务](https://course.rs/cargo/reference/specify-deps.html#从其它注册服务引入依赖包)，不再使用 crates.io
 - 耐心等待持有锁的用户构建完成
-- 强行停止正在构建的进程，例如杀掉 IDE 使用的 rust-analyer 插件进程，然后删除 `$HOME/.cargo/.package_cache` 目录
+- 强行停止正在构建的进程，例如杀掉 IDE 使用的 rust-analyer 插件进程，然后删除 `$HOME/.cargo/.package_cache` 目录和`$HOME/.cargo/registry/index/*`
 
